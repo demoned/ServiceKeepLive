@@ -17,7 +17,8 @@ import android.provider.Settings;
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.annotation.NonNull;
+import io.reactivex.annotations.NonNull;
+
 
 public class IntentWrapper {
 

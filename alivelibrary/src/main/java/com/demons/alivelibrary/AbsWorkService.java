@@ -8,7 +8,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.IBinder;
 
-import androidx.annotation.Nullable;
+import io.reactivex.annotations.Nullable;
 
 public abstract class AbsWorkService extends Service {
 
