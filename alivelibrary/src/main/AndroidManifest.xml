@@ -9,7 +9,8 @@
 
         <receiver
             android:name="com.demons.alivelibrary.WakeUpReceiver"
-            android:process=":watch">
+            android:process=":watch"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.USER_PRESENT" />
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
@@ -20,7 +21,8 @@
 
         <receiver
             android:name="com.demons.alivelibrary.WakeUpReceiver$WakeUpAutoStartReceiver"
-            android:process=":watch">
+            android:process=":watch"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
